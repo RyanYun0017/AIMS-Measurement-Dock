@@ -1,7 +1,6 @@
 import pyvisa
 from sentio_prober_control.Communication.CommunicatorGpib import *
 from sentio_prober_control.Sentio.ProberSentio import *
-from pymeasure.instruments.keithley import Keithley2450
 import numpy as np
 import pandas as pd
 from time import sleep
